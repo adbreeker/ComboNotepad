@@ -9,11 +9,11 @@
 
     <Button
         android:id="@+id/SaveButton"
-        android:layout_width="200dp"
+        android:layout_width="150dp"
         android:layout_height="75dp"
-        android:text="Save"
+        android:text="Save Note"
+        android:layout_marginLeft="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -29,4 +29,13 @@
         app:layout_constraintBottom_toTopOf="@id/SaveButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ChangePasswordButton"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="Change \n Password"
+        android:layout_marginRight="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
